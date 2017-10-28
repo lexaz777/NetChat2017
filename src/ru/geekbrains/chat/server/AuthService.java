@@ -10,6 +10,7 @@ public class AuthService {
         userdb.put("alex", "123456");
         userdb.put("ustas", "qaz159edc");
         userdb.put("ammy", "pond");
+        userdb.put("test", "test");
     }
 
     public static boolean checkAuth(String username, String password) {
