@@ -1,2 +1,4 @@
 #IntelliIDEA .idea folder ignore
-.idea/
+.idea
+out
+*.iml
