@@ -14,7 +14,8 @@ public class AuthService {
     }
 
     public static boolean checkAuth(String username, String password) {
-        return userdb.get(username).equals(password);
+        return username != null && password != null &&
+                password.equals(userdb.get(username));
     }
 
 }
